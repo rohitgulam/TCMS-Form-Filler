@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "TCMS Form Filler",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": ["https://docs.google.com/forms/d/e/1FAIpQLSfHh7cYGL4x2U7E5nLGAvbzh-MRzFCurcFWgxj4J-hTQU5gvQ/viewform"],
+      "js": ["Content.js"]
+    }
+  ]
+}
